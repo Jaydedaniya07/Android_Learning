@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Android Learning</string>
+
+    <!--    This string use to Main Activity -->
+    <string name="android_Title">Android</string>
+
+    <!--    This string use to Home Activity -->
+
+    <string name="android">Android Learning</string>
+    <string name="horizontalLine">_______________________</string>
+    <string name="textForm">Form (All Text)</string>
+
+    <string name="userName">Enter Your Name</string>
+    <string name="UserName_valid">Valid!</string>
+    <string name="UserName_unValid">UnValid User Name</string>
+    <string name="UserName_required">Required</string>
+
+    <string name="password">Enter Your password</string>
+    <string name="password_valid">Valid!</string>
+    <string name="password_unValid">UnValid Password</string>
+    <string name="password_required">Required</string>
+
+    <string name="email">Enter Your Email</string>
+    <string name="email_valid">Valid!</string>
+    <string name="email_unValid">UnValid Email Address</string>
+    <string name="email_required">Required</string>
+
+    <string name="state">Enter Your State</string>
+    <string name="state_required">Required</string>
+    <string name="state_valid">Valid!</string>
+
+    <string name="city">Enter Your city</string>
+    <string name="city_required">Required</string>
+
+    <string name="number">Enter Your Number</string>
+    <string name="number_Valid">Number Valid!</string>
+    <string name="number_unValid">UnValid Phone Number</string>
+    <string name="number_required">Required</string>
+
+    <string name="numberOtp">Enter Your OTP</string>
+    <string name="otp_UnValid">UnValid OTP</string>
+    <string name="otp_required">Required</string>
+    <string name="otp_Valid">OTP Valid!</string>
+
+    <string name="birthDate">Enter your birthdate</string>
+    <string name="birthDate_required">Required</string>
+    <string name="birthDate_valid">BirthDate Valid</string>
+    <string name="birthDate_unValid">BirthDate UnValid!</string>
+
+    <string name="birthTime">Enter your birthTime</string>
+    <string name="birthTime_required">Required</string>
+    <string name="birthTime_valid">BirthTime Valid</string>
+    <string name="birthTime_unValid">BirthTime UnValid!</string>
+
+    <string name="submitButton">Submit</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    <color name="splashScreen">#C5E2F1</color>-->
+    <!--    <color name="homeScreenItem">#E3EDF3</color>-->
+
+    <!--    This color define to ActionBar-->
+    <color name="actionBar_Light">#CDD1D1</color>
+    <color name="actionBar_Dark">#202020</color>
+
+    <!--    This Color define to Main Activity TextView-->
+    <color name="mainActivityTextColor_Light">#FFFFFF</color>
+    <color name="mainActivityTextColor_Dark">#000000</color>
+
+    <!--    This Color define to Home Activity TextView-->
+    <color name="homeActivityTextColor_Light">#FFFFFF</color>
+    <color name="homeActivityTextColor_Dark">#000000</color>
+
+    <!--    This Color define to TextForm Activity TextView-->
+    <color name="textFormActivityTextView_Light">#FFFFFF</color>
+    <color name="textFormActivityTextView_Dark">#000000</color>
+    <color name="validation_Done">#00BCD4</color>
+    <color name="error">#EC1C34</color>
+
+
+</resources>
