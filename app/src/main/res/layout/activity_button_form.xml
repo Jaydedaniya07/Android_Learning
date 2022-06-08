@@ -23,6 +23,30 @@
             android:orientation="vertical"
             android:padding="10dp">
 
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/textFormActivityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/buttonForm"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/horizontalLine2"
+                style="@style/homeActivityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/horizontalLine"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
             <ImageButton
                 android:id="@+id/profilePicture"
                 style="@style/Widget.AppCompat.ImageButton"
