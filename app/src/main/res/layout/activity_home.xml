@@ -52,7 +52,7 @@
                 style="@style/homeActivityTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
                 android:text="@string/textForm"
                 android:textSize="20sp" />
@@ -62,7 +62,7 @@
                 style="@style/homeActivityTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
                 android:text="@string/buttonForm"
                 android:textSize="20sp" />
