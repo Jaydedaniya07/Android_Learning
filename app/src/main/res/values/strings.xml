@@ -5,11 +5,13 @@
     <string name="android_Title">Android</string>
 
     <!--    This string use to Home Activity -->
-
     <string name="android">Android Learning</string>
     <string name="horizontalLine">_______________________</string>
     <string name="textForm">Form (All Text)</string>
+    <string name="buttonForm">Form (Button)</string>
 
+
+    <!-- This string use to form(all text) activity -->
     <string name="userName">Enter Your Name</string>
     <string name="UserName_valid">Valid!</string>
     <string name="UserName_unValid">UnValid User Name</string>
@@ -53,4 +55,37 @@
     <string name="birthTime_unValid">BirthTime UnValid!</string>
 
     <string name="submitButton">Submit</string>
+
+<!--    This string use to form(Button) activity-->
+    <string name="gender">Your Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+
+    <string name="place">You like a Place</string>
+    <string name="placeChip">You selected place chip</string>
+    <string name="cricket">Cricket</string>
+    <string name="dance">dancing</string>
+    <string name="read">Reading</string>
+    <string name="write">Writing</string>
+    <string name="hokey">Hokey</string>
+    <string name="coding">Coding</string>
+    <string name="run">Running</string>
+    <string name="fitness">Fitness</string>
+    <string name="imageButton">hanuman</string>
+
+    <string name="surat">Surat</string>
+    <string name="ahmedabad">Ahmedabad</string>
+    <string name="rajkot">Rajkot</string>
+    <string name="bangalore">Bangalore</string>
+    <string name="delhi">Delhi</string>
+    <string name="vadodara">Vadodara</string>
+    <string name="patna">Patna</string>
+    <string name="Kolkata">Kolkata</string>
+
+    <string name="hanumanImage">Selected profile as a Hanuman image</string>
+    <string name="sankarImage">Selected profile as a Shiv image</string>
+
+    <string name="floatingButton">Floating Button</string>
+
 </resources>

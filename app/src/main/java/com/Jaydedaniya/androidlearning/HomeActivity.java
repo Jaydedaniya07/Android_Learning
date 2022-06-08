@@ -12,7 +12,8 @@ import java.util.Objects;
 public class HomeActivity extends AppCompatActivity {
 
     //    This define to all views at create a activity_home.xml
-    TextView textForm;
+    TextView textForm, buttonForm;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,14 +25,25 @@ public class HomeActivity extends AppCompatActivity {
 
 //        This code to find the view in activity_home.xml
         textForm = findViewById(R.id.textForm);
+        buttonForm = findViewById(R.id.buttonForm);
 
 //        This code to set on click event at textForm
         textForm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this,TextForm.class);
+                intent = new Intent(HomeActivity.this, TextForm.class);
                 startActivity(intent);
             }
         });
+
+//        This code to set on click event at textForm
+        buttonForm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(HomeActivity.this,ButtonForm.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

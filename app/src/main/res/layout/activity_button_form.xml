@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonForm">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/profilePicture"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/imageButton"
+                android:src="@drawable/om" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/maleRadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:id="@+id/femaleRadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female" />
+
+                <RadioButton
+                    android:id="@+id/othersRadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/others" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_Surat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox0"
+                    android:text="@string/surat" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_Vadodara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox1"
+                    android:text="@string/vadodara" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_Rajkot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox2"
+                    android:text="@string/rajkot" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_Kolkata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox3"
+                    android:text="@string/Kolkata" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_Delhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox4"
+                    android:text="@string/delhi" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_Patna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox5"
+                    android:text="@string/patna" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingHorizontal="50dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox_Ahmedabad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox6"
+                    android:text="@string/ahmedabad" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_Bangalore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="checkbox7"
+                    android:text="@string/bangalore" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/chipTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeChip"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/ChipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/surat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="false"
+                    android:tag="Chip0"
+                    android:text="@string/surat"
+                    android:visibility="gone"
+                    app:chipIconVisible="true"
+                    app:closeIconVisible="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/ahmedabad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="chip6"
+                    android:text="@string/ahmedabad"
+                    android:visibility="gone"
+                    app:chipIconVisible="true"
+                    app:closeIconVisible="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/vadodara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="chip1"
+                    android:text="@string/vadodara"
+                    android:visibility="gone"
+                    app:closeIconVisible="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/rajkot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="chip2"
+                    android:text="@string/rajkot"
+                    android:visibility="gone"
+                    app:chipIconVisible="true"
+                    app:closeIconVisible="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/dehli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="chip4"
+                    android:text="@string/delhi"
+                    android:visibility="gone"
+                    app:chipIconVisible="true"
+                    app:closeIconVisible="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/bangalore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="chip7"
+                    android:text="@string/bangalore"
+                    android:visibility="gone"
+                    app:closeIconVisible="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/patna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="chip5"
+                    android:text="@string/patna"
+                    android:visibility="gone"
+                    app:closeIconVisible="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/kolkata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="chip3"
+                    android:text="@string/Kolkata"
+                    android:visibility="gone"
+                    app:chipIconVisible="true"
+                    app:closeIconVisible="true" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <TextView
+                android:id="@+id/hanumanProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/hanumanImage"
+                android:textSize="20sp" />
+
+            <ToggleButton
+                android:id="@+id/hanumanProfileSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/shivProfileSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:minHeight="48dp"
+                android:text="@string/sankarImage"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:contentDescription="@string/floatingButton"
+        android:minHeight="48dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

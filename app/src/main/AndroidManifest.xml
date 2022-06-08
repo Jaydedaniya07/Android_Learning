@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLearning">
         <activity
+            android:name=".ButtonForm"
+            android:exported="false" />
+        <activity
             android:name=".TextForm"
             android:exported="false" />
         <activity
